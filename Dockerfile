@@ -4,7 +4,7 @@ FROM registry.docker-cn.com/library/nginx:stable-alpine
 # 维护者信息
 LABEL maintainer="wen911119@gmail.com"
 
-ADD index.html dist /usr/share/nginx/html/
+ADD index.html /usr/share/nginx/html/
 ADD ./dist /usr/share/nginx/html/
 
 
